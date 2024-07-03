@@ -1,0 +1,211 @@
+
+Epoch 1 / 50 finished
+Epoch 2 / 50 finished
+Epoch 3 / 50 finished
+Epoch 4 / 50 finished
+Epoch 5 / 50 finished
+Epoch 6 / 50 finished
+Epoch 7 / 50 finished
+Epoch 8 / 50 finished
+Epoch 9 / 50 finished
+Epoch 10 / 50 finished
+Epoch 11 / 50 finished
+Epoch 12 / 50 finished
+Epoch 13 / 50 finished
+Epoch 14 / 50 finished
+Epoch 15 / 50 finished
+Epoch 16 / 50 finished
+Epoch 17 / 50 finished
+Epoch 18 / 50 finished
+Epoch 19 / 50 finished
+Epoch 20 / 50 finished
+Epoch 21 / 50 finished
+Epoch 22 / 50 finished
+Epoch 23 / 50 finished
+Epoch 24 / 50 finished
+Epoch 25 / 50 finished
+Epoch 26 / 50 finished
+Epoch 27 / 50 finished
+Epoch 28 / 50 finished
+Epoch 29 / 50 finished
+Epoch 30 / 50 finished
+Epoch 31 / 50 finished
+Epoch 32 / 50 finished
+Epoch 33 / 50 finished
+Epoch 34 / 50 finished
+Epoch 35 / 50 finished
+Epoch 36 / 50 finished
+Epoch 37 / 50 finished
+Epoch 38 / 50 finished
+Epoch 39 / 50 finished
+Epoch 40 / 50 finished
+Epoch 41 / 50 finished
+Epoch 42 / 50 finished
+Epoch 43 / 50 finished
+Epoch 44 / 50 finished
+Epoch 45 / 50 finished
+Epoch 46 / 50 finished
+Epoch 47 / 50 finished
+Epoch 48 / 50 finished
+Epoch 49 / 50 finished
+Epoch 50 / 50 finished
+Iteration 0, Loss 0.13432683050632477
+Iteration 1, Loss 0.14084821939468384
+Iteration 2, Loss 0.17220646142959595
+Iteration 3, Loss 0.15555372834205627
+Iteration 4, Loss 0.12349142134189606
+Iteration 5, Loss 0.15805217623710632
+Iteration 6, Loss 0.16542240977287292
+Average test loss: 0.14998589243207658
+Epoch 1 / 500 finished
+Epoch 2 / 500 finished
+Epoch 3 / 500 finished
+Epoch 4 / 500 finished
+Epoch 5 / 500 finished
+Epoch 6 / 500 finished
+Epoch 7 / 500 finished
+Epoch 8 / 500 finished
+Epoch 1 / 500 finished
+Epoch 2 / 500 finished
+Epoch 3 / 500 finished
+Epoch 4 / 500 finished
+Epoch 5 / 500 finished
+Epoch 6 / 500 finished
+Epoch 7 / 500 finished
+Epoch 8 / 500 finished
+Epoch 9 / 500 finished
+Epoch 10 / 500 finished
+Epoch 11 / 500 finished
+Epoch 12 / 500 finished
+Epoch 13 / 500 finished
+Epoch 14 / 500 finished
+Epoch 15 / 500 finished
+Epoch 16 / 500 finished
+Epoch 17 / 500 finished
+Epoch 18 / 500 finished
+Epoch 19 / 500 finished
+Epoch 20 / 500 finished
+Epoch 21 / 500 finished
+Epoch 22 / 500 finished
+Epoch 23 / 500 finished
+Epoch 24 / 500 finished
+Epoch 25 / 500 finished
+Iteration 0, Loss 0.1453956961631775
+Iteration 1, Loss 0.11444175243377686
+Iteration 2, Loss 0.1556016504764557
+Iteration 3, Loss 0.09228693693876266
+Iteration 4, Loss 0.11969857662916183
+Iteration 5, Loss 0.0838969349861145
+Iteration 6, Loss 0.13814188539981842
+Average test loss: 0.12135191900389534
+Epoch 1 / 500 finished
+Epoch 2 / 500 finished
+Epoch 3 / 500 finished
+Epoch 4 / 500 finished
+Epoch 5 / 500 finished
+Epoch 6 / 500 finished
+Epoch 7 / 500 finished
+Epoch 8 / 500 finished
+Epoch 9 / 500 finished
+Epoch 10 / 500 finished
+Epoch 11 / 500 finished
+Epoch 12 / 500 finished
+Epoch 13 / 500 finished
+Epoch 14 / 500 finished
+Epoch 15 / 500 finished
+Epoch 16 / 500 finished
+Epoch 17 / 500 finished
+Epoch 18 / 500 finished
+Epoch 19 / 500 finished
+Epoch 20 / 500 finished
+Epoch 21 / 500 finished
+Epoch 22 / 500 finished
+Epoch 23 / 500 finished
+Epoch 24 / 500 finished
+Epoch 25 / 500 finished
+Epoch 26 / 500 finished
+Epoch 27 / 500 finished
+Epoch 28 / 500 finished
+Epoch 29 / 500 finished
+Epoch 30 / 500 finished
+Epoch 31 / 500 finished
+Epoch 32 / 500 finished
+Epoch 33 / 500 finished
+Epoch 34 / 500 finished
+Epoch 35 / 500 finished
+Epoch 36 / 500 finished
+Epoch 37 / 500 finished
+Epoch 38 / 500 finished
+Epoch 39 / 500 finished
+Epoch 40 / 500 finished
+Epoch 41 / 500 finished
+Epoch 42 / 500 finished
+Epoch 43 / 500 finished
+Epoch 44 / 500 finished
+Epoch 45 / 500 finished
+Epoch 46 / 500 finished
+Epoch 47 / 500 finished
+Epoch 48 / 500 finished
+Epoch 49 / 500 finished
+Epoch 50 / 500 finished
+Epoch 51 / 500 finished
+Epoch 52 / 500 finished
+Epoch 53 / 500 finished
+Epoch 54 / 500 finished
+Epoch 55 / 500 finished
+Epoch 56 / 500 finished
+Epoch 57 / 500 finished
+Epoch 58 / 500 finished
+Epoch 59 / 500 finished
+Epoch 60 / 500 finished
+Epoch 61 / 500 finished
+Epoch 62 / 500 finished
+Epoch 63 / 500 finished
+Epoch 64 / 500 finished
+Epoch 65 / 500 finished
+Epoch 66 / 500 finished
+Epoch 67 / 500 finished
+Epoch 68 / 500 finished
+Epoch 69 / 500 finished
+Epoch 70 / 500 finished
+Epoch 71 / 500 finished
+Epoch 72 / 500 finished
+Epoch 73 / 500 finished
+Epoch 74 / 500 finished
+Epoch 75 / 500 finished
+Epoch 76 / 500 finished
+Epoch 77 / 500 finished
+Epoch 78 / 500 finished
+Epoch 79 / 500 finished
+Epoch 80 / 500 finished
+Epoch 81 / 500 finished
+Epoch 82 / 500 finished
+Epoch 83 / 500 finished
+Epoch 84 / 500 finished
+Epoch 85 / 500 finished
+Epoch 86 / 500 finished
+Epoch 87 / 500 finished
+Epoch 88 / 500 finished
+Epoch 89 / 500 finished
+Epoch 90 / 500 finished
+Epoch 91 / 500 finished
+Epoch 92 / 500 finished
+Epoch 93 / 500 finished
+Epoch 94 / 500 finished
+Epoch 95 / 500 finished
+Epoch 96 / 500 finished
+Epoch 97 / 500 finished
+Epoch 98 / 500 finished
+Epoch 99 / 500 finished
+Epoch 100 / 500 finished
+Epoch 101 / 500 finished
+Epoch 102 / 500 finished
+Iteration 0, Loss 0.018500957638025284
+Iteration 1, Loss 0.01916678249835968
+Iteration 2, Loss 0.01760253868997097
+Iteration 3, Loss 0.019218668341636658
+Iteration 4, Loss 0.016537053510546684
+Iteration 5, Loss 0.019710350781679153
+Iteration 6, Loss 0.009163077920675278
+Average test loss: 0.017128489911556244
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

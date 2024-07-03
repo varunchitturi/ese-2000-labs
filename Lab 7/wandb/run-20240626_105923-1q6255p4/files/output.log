@@ -1,0 +1,111 @@
+
+Epoch 1 / 300 finished
+Epoch 2 / 300 finished
+Epoch 3 / 300 finished
+Epoch 4 / 300 finished
+Epoch 5 / 300 finished
+Epoch 6 / 300 finished
+wandb: Network error (ConnectionError), entering retry loop.
+Epoch 7 / 300 finished
+Epoch 8 / 300 finished
+Epoch 9 / 300 finished
+Epoch 10 / 300 finished
+Epoch 11 / 300 finished
+Epoch 12 / 300 finished
+Epoch 13 / 300 finished
+Epoch 14 / 300 finished
+Epoch 15 / 300 finished
+Epoch 16 / 300 finished
+Epoch 17 / 300 finished
+Epoch 18 / 300 finished
+Epoch 19 / 300 finished
+Epoch 20 / 300 finished
+Epoch 21 / 300 finished
+Epoch 22 / 300 finished
+Epoch 23 / 300 finished
+Epoch 24 / 300 finished
+Epoch 25 / 300 finished
+Epoch 26 / 300 finished
+Epoch 27 / 300 finished
+Epoch 28 / 300 finished
+Epoch 29 / 300 finished
+Epoch 30 / 300 finished
+Epoch 31 / 300 finished
+Epoch 32 / 300 finished
+Epoch 33 / 300 finished
+Epoch 34 / 300 finished
+Epoch 35 / 300 finished
+Epoch 36 / 300 finished
+Epoch 37 / 300 finished
+Epoch 38 / 300 finished
+Epoch 39 / 300 finished
+Epoch 40 / 300 finished
+Epoch 41 / 300 finished
+Epoch 42 / 300 finished
+Epoch 43 / 300 finished
+Epoch 44 / 300 finished
+Epoch 45 / 300 finished
+Epoch 46 / 300 finished
+Epoch 47 / 300 finished
+Epoch 48 / 300 finished
+Epoch 49 / 300 finished
+Epoch 50 / 300 finished
+Epoch 51 / 300 finished
+Epoch 52 / 300 finished
+Epoch 53 / 300 finished
+Epoch 54 / 300 finished
+Epoch 55 / 300 finished
+Epoch 56 / 300 finished
+Epoch 57 / 300 finished
+Epoch 58 / 300 finished
+Epoch 59 / 300 finished
+Epoch 60 / 300 finished
+Epoch 61 / 300 finished
+Epoch 62 / 300 finished
+Epoch 63 / 300 finished
+Epoch 64 / 300 finished
+Epoch 65 / 300 finished
+Epoch 66 / 300 finished
+Epoch 67 / 300 finished
+Epoch 68 / 300 finished
+Epoch 69 / 300 finished
+Epoch 70 / 300 finished
+Epoch 71 / 300 finished
+Epoch 72 / 300 finished
+Epoch 73 / 300 finished
+Epoch 74 / 300 finished
+Epoch 75 / 300 finished
+Epoch 76 / 300 finished
+Epoch 77 / 300 finished
+Epoch 78 / 300 finished
+Epoch 79 / 300 finished
+Epoch 80 / 300 finished
+Epoch 81 / 300 finished
+Epoch 82 / 300 finished
+Epoch 83 / 300 finished
+Epoch 84 / 300 finished
+Epoch 85 / 300 finished
+Epoch 86 / 300 finished
+Epoch 87 / 300 finished
+Epoch 88 / 300 finished
+Epoch 89 / 300 finished
+Epoch 90 / 300 finished
+Epoch 91 / 300 finished
+Epoch 92 / 300 finished
+Epoch 93 / 300 finished
+Epoch 94 / 300 finished
+Epoch 95 / 300 finished
+Epoch 96 / 300 finished
+Epoch 97 / 300 finished
+Epoch 98 / 300 finished
+Epoch 99 / 300 finished
+Epoch 100 / 300 finished
+Model added to WandB - ArtifactManifestEntry(path='model.pth', digest='x9hC5kZzQ1s5o79YSTuFqg==', size=268647346, local_path='/Users/teresa/Library/Application Support/wandb/artifacts/staging/tmppt_q93eh', skip_cache=False)
+Iteration 0, Loss 0.03184434771537781
+Iteration 1, Loss 0.0392167866230011
+Iteration 2, Loss 0.04182438924908638
+Iteration 3, Loss 0.02071961760520935
+Average test loss: 0.03340128529816866
+Model already trained and loaded from file 'models/model.pth'
+If you would like to retrain your model, delete 'models/model.pth' and run this cell again.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

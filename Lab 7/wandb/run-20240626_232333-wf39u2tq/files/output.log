@@ -1,0 +1,31 @@
+
+Epoch 1 / 500 finished
+Epoch 2 / 500 finished
+Epoch 3 / 500 finished
+Epoch 4 / 500 finished
+Epoch 5 / 500 finished
+Epoch 6 / 500 finished
+Epoch 7 / 500 finished
+Epoch 8 / 500 finished
+Epoch 9 / 500 finished
+Epoch 10 / 500 finished
+Epoch 11 / 500 finished
+Epoch 12 / 500 finished
+Epoch 13 / 500 finished
+Epoch 14 / 500 finished
+Epoch 15 / 500 finished
+Epoch 16 / 500 finished
+Epoch 17 / 500 finished
+Epoch 18 / 500 finished
+Epoch 19 / 500 finished
+Epoch 20 / 500 finished
+Epoch 21 / 500 finished
+Epoch 22 / 500 finished
+Epoch 23 / 500 finished
+Model added to WandB - ArtifactManifestEntry(path='model.pth', digest='Uv/aet+OZv2KnmL/GVUiUg==', size=268647410, local_path='/Users/teresa/Library/Application Support/wandb/artifacts/staging/tmpmrdnxbwz', skip_cache=False)
+Iteration 0, Loss 0.10555293411016464
+Iteration 1, Loss 0.1082276999950409
+Iteration 2, Loss 0.10847680270671844
+Iteration 3, Loss 0.12108010053634644
+Average test loss: 0.1108343843370676
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

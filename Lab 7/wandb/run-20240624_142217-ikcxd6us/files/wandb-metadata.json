@@ -1,0 +1,36 @@
+{
+    "os": "macOS-12.6.2-arm64-arm-64bit",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-06-24T18:22:18.627469",
+    "startedAt": "2024-06-24T18:22:17.547181",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/varunchitturi/ese-2000-labs",
+        "commit": "08a96aef55ec74a75e5aa4f3bc2d7d63f7682e67"
+    },
+    "email": "153689710+tshang21@users.noreply.github.com",
+    "root": "/Users/teresa/Desktop/ese-2000-labs",
+    "host": "hnt-06723.apn.wlan.private.upenn.edu",
+    "username": "teresa",
+    "executable": "/Users/teresa/miniconda3/envs/ese2000/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 682.8881874084473
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M2",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
