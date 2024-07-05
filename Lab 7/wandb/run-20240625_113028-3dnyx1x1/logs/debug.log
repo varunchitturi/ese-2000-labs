@@ -1,0 +1,29 @@
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Configure stats pid to 95026
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Loading settings from /Users/teresa/.config/wandb/settings
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Loading settings from /Users/teresa/Desktop/ese-2000-labs/Lab 7/wandb/settings
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_init.py:_log_setup():520] Logging user logs to /Users/teresa/Desktop/ese-2000-labs/Lab 7/wandb/run-20240625_113028-3dnyx1x1/logs/debug.log
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/teresa/Desktop/ese-2000-labs/Lab 7/wandb/run-20240625_113028-3dnyx1x1/logs/debug-internal.log
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_init.py:init():560] calling init triggers
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'architecture': 'UNET', 'dataset': 'MNIST'}
+2024-06-25 11:30:28,164 INFO    MainThread:95026 [wandb_init.py:init():585] re-initializing run, found existing run on stack: nkmv2fwt
+2024-06-25 11:30:28,170 INFO    MainThread:95026 [wandb_run.py:_finish():2103] finishing run ese-2000/lab-7-gdm/nkmv2fwt
+2024-06-25 11:30:28,174 INFO    MainThread:95026 [jupyter.py:save_history():445] not saving jupyter history
+2024-06-25 11:30:28,174 INFO    MainThread:95026 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-25 11:30:28,174 INFO    MainThread:95026 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-06-25 11:30:28,174 INFO    MainThread:95026 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-06-25 11:30:28,175 INFO    MainThread:95026 [wandb_run.py:_restore():2326] restore
+2024-06-25 11:30:28,175 INFO    MainThread:95026 [wandb_run.py:_restore():2332] restore done
+2024-06-25 11:30:35,950 INFO    MainThread:95026 [wandb_init.py:init():610] starting backend
+2024-06-25 11:30:35,950 INFO    MainThread:95026 [wandb_init.py:init():614] setting up manager
+2024-06-25 11:30:35,954 INFO    MainThread:95026 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-06-25 11:30:35,955 INFO    MainThread:95026 [wandb_init.py:init():622] backend started and connected
+2024-06-25 11:30:35,988 INFO    MainThread:95026 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-06-25 11:30:35,989 INFO    MainThread:95026 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-25 11:30:35,989 INFO    MainThread:95026 [wandb_init.py:init():711] updated telemetry
+2024-06-25 11:30:36,020 INFO    MainThread:95026 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout

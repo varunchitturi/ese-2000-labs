@@ -1,0 +1,10 @@
+
+32 4
+Model already trained and loaded from file 'models/model.pth'
+If you would like to retrain your model, delete 'models/model.pth' and run this cell again.
+Iteration 0, Loss 0.04764440283179283
+Iteration 1, Loss 0.03496628999710083
+Iteration 2, Loss 0.03982967883348465
+Iteration 3, Loss 0.027171488851308823
+Average test loss: 0.03740296512842178
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

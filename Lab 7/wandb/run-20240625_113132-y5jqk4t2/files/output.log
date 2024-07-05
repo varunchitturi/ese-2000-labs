@@ -1,0 +1,6 @@
+
+32 4
+/var/folders/7w/qhjx915d72v4nkt0gpls0m_h0000gn/T/ipykernel_97202/1404680053.py:6: UserWarning: cumprod_out_mps supported by MPS on MacOS 13+, please upgrade (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1702400154748/work/aten/src/ATen/native/mps/operations/UnaryOps.mm:406.)
+  alpha_hat_t_list = torch.cumprod(alpha_t_list, dim=0).to(device)
+/Users/teresa/miniconda3/envs/ese2000/lib/python3.8/site-packages/torch/nn/functional.py:3983: UserWarning: MPS: passing scale factor to upsample ops is supported natively starting from macOS 13.0. Falling back on CPU. This may have performance implications. (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1702400154748/work/aten/src/ATen/native/mps/operations/UpSample.mm:246.)
+  return torch._C._nn.upsample_nearest2d(input, output_size, scale_factors)

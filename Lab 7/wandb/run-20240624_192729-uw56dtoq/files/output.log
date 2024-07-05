@@ -1,0 +1,4 @@
+
+188 4
+/var/folders/7w/qhjx915d72v4nkt0gpls0m_h0000gn/T/ipykernel_86570/4132584936.py:6: UserWarning: cumprod_out_mps supported by MPS on MacOS 13+, please upgrade (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1702400154748/work/aten/src/ATen/native/mps/operations/UnaryOps.mm:406.)
+  alpha_hat_t_list = torch.cumprod(alpha_t_list, dim=0).to(device)
