@@ -34,7 +34,6 @@ class Critic:
             .to(device),
             trajectory_interpolation_amount
         )
-        print(self.expert_sample.shape)
         self.expert_sample_indices_doubled = torch.arange(self.expert_sample.shape[0] * 2).to(self.device)
         print(
             f"The normalized_state_look_ahead dim (input dim for policy) is {Critic.STATE_LOOK_AHEAD_DIM}")
