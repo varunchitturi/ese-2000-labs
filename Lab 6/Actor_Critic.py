@@ -1,16 +1,25 @@
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import numpy as np
-from ese2000_dynamical.simulator import Simulator
 
+# When the actor/policy makes a decision on which direction to apply a force,
+# it needs more information that just its current position and velocity in order to follow the track
+# To help the actor/policy make a more "informed" decision,
+# we get the `TRAJECTORY_LOOK_AHEAD_COUNT` closest points of the expert
+# trajectory to the current location of the actor/policy.
+# We then append these points to the current state, normalize it by `STATE_SCALE`,
+# and feed it to the actor/policy.
 TRAJECTORY_LOOK_AHEAD_COUNT = 10
+# Dimension of the states of a trajectory. (pos_x, pos_y, velocity_x, velocity_y)
 STATE_DIM = 4
+# Dimension of the action a policy/actor takes. (acceleration_x, acceleration_y)
 ACTION_DIM = 2
 # NOTE: Tensors of size (batch_size, STATE_LOOK_AHEAD_DIM) must be accepted as input to the
 # policy model
 STATE_LOOK_AHEAD_DIM = STATE_DIM * (TRAJECTORY_LOOK_AHEAD_COUNT + 1)
+# Scale of the states. We can use this value to scale from a normalized representation of the state
+# to the true representation (or vice-versa).
 STATE_SCALE = 20
+# Scale of the actions. We can use this value to scale from a normalized representation of the actions
+# to the true representation (or vice-versa).
 ACTION_SCALE = 35
 
 
@@ -54,10 +63,28 @@ def get_state_with_look_ahead_normalized(state, expert_sample):
     return torch.cat([state, look_ahead], dim=-1) / STATE_SCALE
 
 
+class Critic:
+    def __init__(self, model_path, device):
+        self.model = torch.jit.load(model_path, map_location=device)
+
+    def criticize(self, normalized_look_ahead_states, normalized_actions):
+        """
+        :param normalized_look_ahead_states: Accepts a tensor of dimension (T, STATE_LOOK_AHEAD_DIM)
+        This is supposed to be a list of T timesteps of normalized_look_ahead_states that the policy
+        model takes during a rollout.
+        :param normalized_actions: Accepts a tensor of dimension (T, ACTION_DIM)
+        This is supposed to be a list of T timesteps of normalized_actions that the policy model
+        takes during a rollout.
+        :return: A single (back-propable) loss for the policy model
+        """
+        return torch.mean(self.model(normalized_look_ahead_states, normalized_actions))
+
+
 class Actor:
 
-    def __init__(self, model, expert_sample):
+    def __init__(self, model, device, expert_sample):
         self.model = model
+        self.model.to(device)
         self.expert_sample = expert_sample
 
     def act(self, state):
